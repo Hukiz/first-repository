@@ -12,7 +12,11 @@ public class Index{
     System.out.println("3. Methods");
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
-    System.out.println("6. Exit");
+    System.out.println("6. FirstArray");
+    System.out.println("7. SecondArray");
+    System.out.println("8. Try Catch");
+    System.out.println("9. Enhanced For");
+    System.out.println("10. Exit");
 
     System.out.println();
 
@@ -46,6 +50,26 @@ public class Index{
 	 	Arithmetic.main(null);
         break;
      case 6:
+		System.out.println("First Array lab");
+		System.out.println();
+		FirstArray.main(null);
+        break;
+     case 7:
+	 	System.out.println("Second Array lab");
+	 	System.out.println();
+	 	SecondArray.main(null);
+        break;
+     case 8:
+	 	System.out.println("Try Catch lab");
+	 	System.out.println();
+	 	TryCatch.main(null);
+        break;
+     case 9:
+	 	System.out.println("Enhanced For lab");
+	 	System.out.println();
+	 	EnhancedFor.main(null);
+        break;
+     case 10:
         System.out.println("Exiting....");
         break;
       default:
